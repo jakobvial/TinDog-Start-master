@@ -1,13 +1,16 @@
-h1 {
-    color: white;
+body {
     font-family: 'Montserrat-black', sans-serif;
-    font-size: 3rem;
+}
+
+h1 {
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
 
 #title {
     background-color: #ff4c68;
+    color: #fff;
 }
 
 .container-fluid {
@@ -15,18 +18,38 @@ h1 {
 
 }
 
-.iphone-img {
-    height: 600px;
+/*Navigation bar*/
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+}
+
+/*Download buttons*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+
+.title-img {
+    width: 60%;
     margin-top: 50px;
     transform: rotate(25deg);
-}
-
-.navbar-brand{
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-}
-
-.nav-item{
-    margin: 0 25px;
 }
