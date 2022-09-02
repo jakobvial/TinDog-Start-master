@@ -58,7 +58,7 @@ p {
 }
 
 /*Title left*/
-.title-left{
+.title-left {
     position: relative;
     z-index: 1;
 }
@@ -73,10 +73,10 @@ p {
 
 .title-img {
     position: absolute;
-    z-index: 0;
+    right: 25%;
     transform: rotate(25deg);
     width: 25%;
-    right: 25%;
+    z-index: 0;
 }
 
 /*Features*/
@@ -136,4 +136,16 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
