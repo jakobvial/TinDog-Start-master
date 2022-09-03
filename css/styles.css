@@ -1,3 +1,4 @@
+/*region General*/
 body {
     font-family: Montserrat, sans-serif;
 }
@@ -24,19 +25,14 @@ p {
     color: #8f8f8f;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    position: relative;
-}
-
 .container-fluid {
     padding: 3% 15% 7%;
 
 }
 
-/*Navigation bar*/
+/*endregion*/
 
+/*region Navigation bar*/
 .navbar {
     font-family: Ubuntu, sans-serif;
     padding: 0 0 4.5rem;
@@ -57,20 +53,32 @@ p {
     font-size: 1.2rem;
 }
 
-/*Title left*/
+/*endregion*/
+
+/*region Title*/
+
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+    position: relative;
+}
+
+/*region Title left*/
 .title-left {
     position: relative;
     z-index: 1;
 }
 
-/*Download buttons*/
+/*endregion*/
 
+/*region Download buttons*/
 .download-button {
     margin: 5% 3% 5% 0;
 }
 
-/*Title image*/
+/*endregion*/
 
+/*region Title image*/
 .title-img {
     position: absolute;
     right: 25%;
@@ -79,7 +87,22 @@ p {
     z-index: 0;
 }
 
-/*Features*/
+@media (max-width: 991px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/*endregion*/
+/*endregion*/
+
+/*region Features*/
 #features {
     background-color: white;
     padding: 7% 15%;
@@ -100,10 +123,12 @@ p {
     color: #ff4c68;
 }
 
-/*Testimonials*/
+/*endregion*/
+
+/*region Testimonials*/
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -128,7 +153,9 @@ p {
     width: 15%;
 }
 
-/*Pricing*/
+/*endregion*/
+
+/*region Pricing*/
 #pricing {
     padding: 100px;
     text-align: center;
@@ -138,14 +165,50 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width: 991px) {
-    .title-img {
-        position: static;
-        transform: rotate(0);
-        width: 60%;
-    }
-
-    #title {
-        text-align: center;
-    }
+.card-body {
+    padding-bottom: 70px;
+    position: relative;
 }
+
+.pricing-btn {
+    bottom: 5%;
+    left: 5%;
+    position: absolute;
+    width: 90%;
+}
+
+/*endregion*/
+
+/*region CTA*/
+#cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*endregion*/
+
+/*region Footer*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.footer-icons {
+    margin: 0 0 15px;
+}
+
+.footer-icon {
+    margin: 20px;
+}
+
+/*endregion*/
