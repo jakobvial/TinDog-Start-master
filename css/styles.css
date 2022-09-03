@@ -6,7 +6,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
 
@@ -17,9 +16,21 @@ p {
 /*endregion*/
 
 
-/*region Bootstrap classes*/
+/*region Containers*/
 .container-fluid {
     padding: 7% 15%;
+}
+
+/*endregion*/
+
+/*region Sections*/
+.colored-section {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /*endregion*/
@@ -44,7 +55,7 @@ p {
 }
 
 .navbar-brand {
-    color: white;
+    color: #ffffff;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -62,15 +73,10 @@ p {
 
 /*region Title*/
 
-#title {
-    background-color: #ff4c68;
-    color: #ffffff;
+#title .container-fluid {
+    padding: 3% 15% 10%;
     position: relative;
     text-align: left;
-}
-
-#title .container-fluid {
-    padding: 3% 15% 7%;
 }
 
 /*region Title left*/
@@ -114,7 +120,6 @@ p {
 
 /*region Features*/
 #features {
-    background-color: white;
     position: relative;
 }
 
@@ -142,8 +147,6 @@ p {
 /*region Testimonials*/
 #testimonials {
     background-color: #ef8172;
-    color: #ffffff;
-
 }
 
 .testimonial-img {
@@ -155,7 +158,6 @@ p {
 #press {
     background-color: #ef8172;
     padding-bottom: 3%;
-
 }
 
 .press-logo {
@@ -201,18 +203,10 @@ p {
 /*endregion*/
 
 /*region CTA*/
-#cta {
-    background-color: #ff4c68;
-    color: #ffffff;
-}
 
 /*endregion*/
 
 /*region Footer*/
-#footer {
-    background-color: #ffffff;
-}
-
 .footer-icons {
     margin: 0 0 15px;
 }
