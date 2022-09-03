@@ -1,22 +1,11 @@
-/*region General*/
+/*region Elements*/
+/*Broad stroke styling*/
 body {
     font-family: Montserrat, sans-serif;
+    text-align: center;
 }
 
-h1 {
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: Montserrat, sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
 }
@@ -25,9 +14,25 @@ p {
     color: #8f8f8f;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+/*endregion*/
 
+
+/*region Bootstrap classes*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*endregion*/
+
+/*region Headings*/
+.big-heading {
+    font-size: 3.5rem;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 /*endregion*/
@@ -61,6 +66,11 @@ p {
     background-color: #ff4c68;
     color: #ffffff;
     position: relative;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /*region Title left*/
@@ -105,13 +115,12 @@ p {
 /*region Features*/
 #features {
     background-color: white;
-    padding: 7% 15%;
     position: relative;
 }
 
 .feature-box {
     padding: 5%;
-    text-align: center;
+
 }
 
 .feature-icon {
@@ -123,13 +132,18 @@ p {
     color: #ff4c68;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /*endregion*/
 
 /*region Testimonials*/
 #testimonials {
     background-color: #ef8172;
     color: #ffffff;
-    text-align: center;
+
 }
 
 .testimonial-img {
@@ -138,14 +152,10 @@ p {
     width: 10%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
     background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
+
 }
 
 .press-logo {
@@ -153,12 +163,18 @@ p {
     width: 15%;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 /*endregion*/
 
 /*region Pricing*/
 #pricing {
     padding: 100px;
-    text-align: center;
+
 }
 
 .pricing-column {
@@ -177,29 +193,23 @@ p {
     width: 90%;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /*endregion*/
 
 /*region CTA*/
 #cta {
     background-color: #ff4c68;
     color: #ffffff;
-    padding: 7% 15%;
-    text-align: center;
-}
-
-.cta-heading{
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 /*endregion*/
 
 /*region Footer*/
 #footer {
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ffffff;
 }
 
